@@ -1,0 +1,196 @@
+.scrollmenu {
+
+  overflow: auto;
+  white-space: nowrap;
+   margin-bottom: -20px !important;
+    word-wrap: break-word !important;
+    
+  
+  
+  
+}
+
+.scrollmenu div {
+  display: inline-block;
+ 
+  //text-align: justify !important;
+  text-decoration: none;
+   word-wrap: break-word !important;
+ 
+
+ 
+}
+.card{
+    display: flex !important;
+    //word-wrap: break-word !important;
+}
+
+.margen{
+    text-justify: left;
+    text-align: left;
+}
+
+.pos1{
+    float: left !important;
+}
+
+.pos2{
+    float: right !important;
+}
+
+.pos3{
+    margin: 2px;
+}
+
+
+.asize{
+    font-size: 18px !important;
+    color:rgb(121, 104, 9);
+    font-weight: bold;
+    
+}
+
+.jumbotron p{
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.card p{
+    font-size: 14px;
+    //word-wrap: break-word !important;
+    margin: 2px;
+    text-align: justify;
+}
+.jumbotron h1{
+    
+    font-family: cursive;
+  
+     border-bottom: 5px solid rgb(121, 104, 9);
+    
+
+}
+.card h5{
+    text-align: center;
+}
+
+.top1{
+    
+    margin-top:25px;
+    margin-bottom:25px;
+    
+    background-color: white;
+}
+
+body{
+    background-color: black;
+}
+
+.navbar{
+background-color: rgb(121, 104, 9);
+}
+
+.scro{
+   
+    margin-bottom: 25px !important;
+}
+
+.scro1{
+    margin-top: -25px !important;
+    margin-bottom: 25px !important;
+}
+.Titlepers{
+margin-top: 20px;
+color: White;
+margin-bottom: 10px !important;
+font-family: cursive;
+   font-weight: bold;
+}
+
+.Titleplane{
+    margin-top: 50px !important;
+    color: White;
+    margin-bottom: -10px !important;
+    font-family: cursive;
+    font-weight: bold;
+}
+.pos2 i{
+    font-size: 19px !important;
+    margin-top: 7px;
+}
+i:hover{
+color: red
+
+}
+
+.card:hover {
+-webkit-transform:scale(1.1);
+-moz-transform:scale(1.1);
+-ms-transform:scale(1.1);
+-o-transform:scale(1.1);
+transform:scale(1.1);
+}
+
+
+
+.dropdown i:hover{
+color: red !important
+}
+
+.ali{
+    word-wrap: break-word;
+    margin: 3px;
+    width: 20px;
+    height: auto;
+}
+
+.card-footer{
+border-color: white !important;
+border-top: none;
+background-color: Transparent;
+font-size: 10px !important;
+}
+
+.card span{
+     position: relative;
+     overflow: auto;
+    
+   
+}
+
+.card-footer button {
+font-size: 13px !important;
+font-weight: bold;
+}
+.row span{
+    font-weight: bold;
+    font-size: 17px;
+    margin-bottom: -60px;
+}   
+.dropdown button {
+  outline: none !important;
+  box-shadow: none ;
+}
+
+.cont{
+    background-color:black;// rgb(121, 104, 9);
+    color:white;
+    width: 20px;
+    display: inline-block;
+    text-align: center;
+    border-radius: 5px;
+    font-weight: bold;
+    font: "normal Arial, Helvetica, sans-serif" !important; 
+
+}
+.textcard{
+  
+  width: 180px;
+  word-wrap:break-word !important;
+  height: 50px;
+}
+
+body{
+     background-image: url("https://i.pinimg.com/originals/d0/93/c9/d093c96a6083d978b832811648b8766a.gif");
+     background-size:cover;
+    min-height:100%;
+    min-width:100%;
+}

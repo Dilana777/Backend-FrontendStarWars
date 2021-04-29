@@ -5,10 +5,15 @@ import ScrollToTop from "./component/scrollToTop";
 import { Home } from "./views/home";
 import { Demo } from "./views/demo";
 import { Single } from "./views/single";
+import { Planetsprofile } from "./views/planetsprofile";
+import { Peoplesprofile } from "./views/peoplesprofile";
 import injectContext from "./store/appContext";
+import ReactAudioPlayer from "react-audio-player";
 
 import { Navbar } from "./component/navbar";
 import { Footer } from "./component/footer";
+import { Login } from "./component/login";
+import { Signup } from "./component/signup";
 
 //create your first component
 const Layout = () => {
@@ -25,17 +30,25 @@ const Layout = () => {
 						<Route exact path="/">
 							<Home />
 						</Route>
-						<Route exact path="/demo">
-							<Demo />
+						<Route exact path="/login">
+							<Login />
+						</Route>
+						<Route exact path="/signup">
+							<Signup />
 						</Route>
 						<Route exact path="/single/:theid">
 							<Single />
+						</Route>
+						<Route exact path="/planetsprofile/:theid">
+							<Planetsprofile />
+						</Route>
+						<Route exact path="/peoplesprofile/:theid">
+							<Peoplesprofile />
 						</Route>
 						<Route>
 							<h1>Not found!</h1>
 						</Route>
 					</Switch>
-					<Footer />
 				</ScrollToTop>
 			</BrowserRouter>
 		</div>
